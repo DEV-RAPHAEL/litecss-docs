@@ -1,7 +1,8 @@
 {
   "index": "Introduction",
   "get-started": "Get Started",
-  "features": "Features",
+  "Core": "Core",
+  "Build":"Build Faster",
   "themes": "Themes",
   "advanced": "Advanced"
 }
