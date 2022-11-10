@@ -1,7 +1,7 @@
 export default {
-  github: 'https://github.com/CODECUBE001/litecss',
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
-  titleSuffix: ' – LiteCSS',
+  github: "https://github.com/CODECUBE001/litecss",
+  docsRepositoryBase: "https://github.com/shuding/nextra/blob/master",
+  titleSuffix: " – LiteCSS",
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">LiteCSS</span>
@@ -16,8 +16,14 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="LiteCSS:  Modern Uility-FIrst CSS Framework" />
-      <meta name="og:description" content="LiteCSS:  Modern Uility-FIrst CSS Framework" />
+      <meta
+        name="description"
+        content="LiteCSS:  Modern Uility-FIrst CSS Framework"
+      />
+      <meta
+        name="og:description"
+        content="LiteCSS:  Modern Uility-FIrst CSS Framework"
+      />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
       <meta name="twitter:site:domain" content="nextra.vercel.app" />
@@ -55,13 +61,20 @@ export default {
         href="/favicon-16x16.png"
       />
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+      />
     </>
   ),
   search: true,
   prevLinks: true,
   nextLinks: true,
   footer: true,
-  footerEditLink: 'Edit this page on GitHub',
+  footerEditLink: "Edit this page on GitHub",
   footerText: <>MIT {new Date().getFullYear()} © Liteweb Engine.</>,
-  unstable_faviconGlyph: '👋',
-}
+  unstable_faviconGlyph: "👋",
+};
